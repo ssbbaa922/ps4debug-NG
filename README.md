@@ -1,3 +1,7 @@
+# I have passed the torch to Pharaoh2k and the repo has now moved to https://github.com/Pharaoh2k/ps4debug-NG
+# He will continue maintaining and improving it as well as ps5debug-NG: https://github.com/Pharaoh2k/ps5debug-NG
+# Official NG discord server invite - [Team Reaper](https://discord.com/invite/7tbDhQ5QPw)
+
 # ps4debug-NG
 
 A debugger payload for jailbroken PlayStation 4 consoles.
