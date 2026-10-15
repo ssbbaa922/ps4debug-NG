@@ -10,6 +10,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Build ps4-ksdk
+        run: |
+          cd ps4-ksdk
+          make
       - name: Build libPS4 SDK
         run: |
           cd ps4-payload-sdk/libPS4
