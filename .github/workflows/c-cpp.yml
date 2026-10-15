@@ -10,7 +10,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Build payload inside installer directory
+      - name: Build debugger
+        run: |
+          cd debugger
+          make
+      - name: Build kdebugger
+        run: |
+          cd kdebugger
+          make
+      - name: Build installer payload
         run: |
           cd installer
           make
