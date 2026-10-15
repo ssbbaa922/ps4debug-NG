@@ -30,8 +30,11 @@ jobs:
         run: |
           cd installer
           make
-      - name: Upload compiled debug.bin
+      - name: Upload compiled payload
         uses: actions/upload-artifact@v4
         with:
           name: ps4debug-13.52
-          path: installer/debug.bin
+          path: |
+            installer/*.bin
+            installer/**/*.bin
+            installer/build/*
