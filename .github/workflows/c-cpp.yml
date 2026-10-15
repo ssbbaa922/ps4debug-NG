@@ -10,5 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Build with make
-        run: make
+      - name: Build payload inside installer directory
+        run: |
+          cd installer
+          make
